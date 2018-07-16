@@ -1,0 +1,546 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddEmailToResidentsTable	database/migrations/2017_05_31_043937_add_email_to_residents_table.php	/^class AddEmailToResidentsTable extends Migration$/;"	c
+AddEmployerToResidentsTable	database/migrations/2017_05_20_183636_add_employer_to_residents_table.php	/^class AddEmployerToResidentsTable extends Migration$/;"	c
+AddFacilityToTransactionsTable	database/migrations/2017_05_23_043913_add_facility_to_transactions_table.php	/^class AddFacilityToTransactionsTable extends Migration$/;"	c
+AddFacilityToUsersTable	database/migrations/2017_05_23_041748_add_facility_to_users_table.php	/^class AddFacilityToUsersTable extends Migration$/;"	c
+AdminSeeder	database/seeds/AdminSeeder.php	/^class AdminSeeder extends Seeder$/;"	c
+AppServiceProvider	app/Providers/AppServiceProvider.php	/^class AppServiceProvider extends ServiceProvider$/;"	c
+AuthServiceProvider	app/Providers/AuthServiceProvider.php	/^class AuthServiceProvider extends ServiceProvider$/;"	c
+BroadcastServiceProvider	app/Providers/BroadcastServiceProvider.php	/^class BroadcastServiceProvider extends ServiceProvider$/;"	c
+ChangeDrugToNullable	database/migrations/2017_06_07_212111_change_drug_to_nullable.php	/^class ChangeDrugToNullable extends Migration$/;"	c
+Controller	app/Http/Controllers/Controller.php	/^class Controller extends BaseController$/;"	c
+CreateEmployersTable	database/migrations/2017_05_20_182140_create_employers_table.php	/^class CreateEmployersTable extends Migration$/;"	c
+CreateFacilityInfoTable	database/migrations/2017_06_14_052413_create_facility_info_table.php	/^class CreateFacilityInfoTable extends Migration$/;"	c
+CreateNotesTable	database/migrations/2017_05_03_160448_create_notes_table.php	/^class CreateNotesTable extends Migration$/;"	c
+CreatePasswordResetsTable	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^class CreatePasswordResetsTable extends Migration$/;"	c
+CreateResidentsTable	database/migrations/2017_04_23_181645_create_residents_table.php	/^class CreateResidentsTable extends Migration$/;"	c
+CreateTransactionsTable	database/migrations/2017_04_30_052843_create_transactions_table.php	/^class CreateTransactionsTable extends Migration$/;"	c
+CreateUsersTable	database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+DatabaseSeeder	database/seeds/DatabaseSeeder.php	/^class DatabaseSeeder extends Seeder$/;"	c
+DropFacilityFromTransactionsTable	database/migrations/2017_05_26_031504_drop_facility_from_transactions_table.php	/^class DropFacilityFromTransactionsTable extends Migration$/;"	c
+DuskTestCase	tests/DuskTestCase.php	/^abstract class DuskTestCase extends BaseTestCase$/;"	c
+Employer	app/Employer.php	/^class Employer extends Model$/;"	c
+EmployerController	app/Http/Controllers/EmployerController.php	/^class EmployerController extends Controller$/;"	c
+EncryptCookies	app/Http/Middleware/EncryptCookies.php	/^class EncryptCookies extends BaseEncrypter$/;"	c
+EventServiceProvider	app/Providers/EventServiceProvider.php	/^class EventServiceProvider extends ServiceProvider$/;"	c
+ExampleTest	tests/Unit/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c
+FacilityInfo	app/FacilityInfo.php	/^class FacilityInfo extends Model$/;"	c
+FacilityInfoController	app/Http/Controllers/FacilityInfoController.php	/^class FacilityInfoController extends Controller$/;"	c
+FacilityInfoRequest	app/Http/Requests/FacilityInfoRequest.php	/^class FacilityInfoRequest extends FormRequest$/;"	c
+FacilityReportsController	app/Http/Controllers/FacilityReportsController.php	/^class FacilityReportsController extends Controller$/;"	c
+ForgotPasswordController	app/Http/Controllers/Auth/ForgotPasswordController.php	/^class ForgotPasswordController extends Controller$/;"	c
+Handler	app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	c
+HomeController	app/Http/Controllers/HomeController.php	/^class HomeController extends Controller$/;"	c
+HomePage	tests/Browser/Pages/HomePage.php	/^class HomePage extends Page$/;"	c
+HomePageTest	tests/Browser/HomePageTest.php	/^class HomePageTest extends DuskTestCase$/;"	c
+InvoiceController	app/Http/Controllers/InvoiceController.php	/^class InvoiceController extends Controller$/;"	c
+Kernel	app/Console/Kernel.php	/^class Kernel extends ConsoleKernel$/;"	c
+Kernel	app/Http/Kernel.php	/^class Kernel extends HttpKernel$/;"	c
+LARAVEL_START	bootstrap/autoload.php	/^define('LARAVEL_START', microtime(true));$/;"	d
+LoginController	app/Http/Controllers/Auth/LoginController.php	/^class LoginController extends Controller$/;"	c
+LoginTest	tests/Browser/LoginTest.php	/^class LoginTest extends DuskTestCase$/;"	c
+LoginTest	tests/Unit/LoginTest.php	/^class LoginTest extends TestCase$/;"	c
+ManDaysForMonthTest	tests/Unit/ManDaysForMonthTest.php	/^class ManDaysForMonthTest extends TestCase$/;"	c
+ManDaysForResident	tests/Unit/ManDaysForResidentTest.php	/^class ManDaysForResident extends TestCase$/;"	c
+ManDaysTest	tests/Unit/ManDaysTest.php	/^class ManDaysTest extends TestCase$/;"	c
+Note	app/Note.php	/^class Note extends Model$/;"	c
+NoteController	app/Http/Controllers/NoteController.php	/^class NoteController extends Controller$/;"	c
+Page	tests/Browser/Pages/Page.php	/^abstract class Page extends BasePage$/;"	c
+RedirectIfAuthenticated	app/Http/Middleware/RedirectIfAuthenticated.php	/^class RedirectIfAuthenticated$/;"	c
+RegisterController	app/Http/Controllers/Auth/RegisterController.php	/^class RegisterController extends Controller$/;"	c
+ReportsController	app/Http/Controllers/ReportsController.php	/^class ReportsController extends Controller$/;"	c
+ResetPasswordController	app/Http/Controllers/Auth/ResetPasswordController.php	/^class ResetPasswordController extends Controller$/;"	c
+Resident	app/Resident.php	/^class Resident extends Model$/;"	c
+ResidentController	app/Http/Controllers/ResidentController.php	/^class ResidentController extends Controller$/;"	c
+ResidentReportsController	app/Http/Controllers/ResidentReportsController.php	/^class ResidentReportsController extends Controller$/;"	c
+ResidentTest	tests/Unit/ResidentTest.php	/^class ResidentTest extends TestCase$/;"	c
+ResidentTransactionTest	tests/Feature/ResidentTransactionTest.php	/^class ResidentTransactionTest extends TestCase$/;"	c
+ResidentsTableSeeder	database/seeds/ResidentsTableSeeder.php	/^class ResidentsTableSeeder extends Seeder$/;"	c
+ResidentsTest	tests/Browser/ResidentsTest.php	/^class ResidentsTest extends DuskTestCase$/;"	c
+RouteServiceProvider	app/Providers/RouteServiceProvider.php	/^class RouteServiceProvider extends ServiceProvider$/;"	c
+SARInvoiceTest	tests/Feature/SARInvoiceTest.php	/^class SARInvoiceTest extends TestCase$/;"	c
+TestCase	tests/TestCase.php	/^abstract class TestCase extends BaseTestCase$/;"	c
+Transaction	app/Transaction.php	/^class Transaction extends Model$/;"	c
+TransactionController	app/Http/Controllers/TransactionController.php	/^class TransactionController extends Controller$/;"	c
+TransactionCreated	app/Mail/TransactionCreated.php	/^class TransactionCreated extends Mailable implements ShouldQueue$/;"	c
+TransactionReportsController	app/Http/Controllers/TransactionReportsController.php	/^class TransactionReportsController extends Controller$/;"	c
+TransactionRequest	app/Http/Requests/TransactionRequest.php	/^class TransactionRequest extends FormRequest$/;"	c
+TrimStrings	app/Http/Middleware/TrimStrings.php	/^class TrimStrings extends BaseTrimmer$/;"	c
+User	app/User.php	/^class User extends Authenticatable$/;"	c
+UsersTableSeeder	database/seeds/UsersTableSeeder.php	/^class UsersTableSeeder extends Seeder$/;"	c
+VerifyCsrfToken	app/Http/Middleware/VerifyCsrfToken.php	/^class VerifyCsrfToken extends BaseVerifier$/;"	c
+__construct	app/Http/Controllers/Auth/ForgotPasswordController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/Auth/LoginController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/Auth/RegisterController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/Auth/ResetPasswordController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/HomeController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/InvoiceController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/NoteController.php	/^    public function __construct()$/;"	f
+__construct	app/Http/Controllers/ReportsController.php	/^    function __construct()$/;"	f
+__construct	app/Http/Controllers/ResidentController.php	/^    function __construct()$/;"	f
+__construct	app/Http/Controllers/ResidentReportsController.php	/^    function __construct()$/;"	f
+__construct	app/Http/Controllers/TransactionController.php	/^    function __construct()$/;"	f
+__construct	app/Http/Controllers/TransactionReportsController.php	/^    public function __construct()$/;"	f
+__construct	app/Mail/TransactionCreated.php	/^    public function __construct(Transaction $transaction)$/;"	f
+__currentLoopData	storage/framework/views/06d22fd6009303ba9f76358fc1b4b0fd08e7d1ee.php	/^            <?php $__currentLoopData = $resident->transactions; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $transaction): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/12543b0c6f9f329b5b9489e00ceef0536db510a0.php	/^                            <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/1e58fe51fc8581d3a7b1ca8b9d0acada96c5eda0.php	/^            <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/21bcabccb9f3993d730d36f621316dee5280695e.php	/^            <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/2d9c79f26e30b78dbad2cf85bbf37e19279b561c.php	/^            <?php $__currentLoopData = $intakes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $intake): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/3aa49362e48d26557c465bb3d482edc7c879b07a.php	/^                            <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/49c77be5cd40e46cdf716c5e8f585fafa8f0ada9.php	/^<?php $__currentLoopData = $introLines; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $line): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/49c77be5cd40e46cdf716c5e8f585fafa8f0ada9.php	/^<?php $__currentLoopData = $outroLines; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $line): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^                <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/97d0901927519b712ab09231224f17e9c01e4f9b.php	/^            <?php $__currentLoopData = $transactions; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $transaction): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/9ca4947af62948fe5575172e1c2db02e25f4c229.php	/^            <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/a02a19c467436cc80e17e760962c14d6d1506433.php	/^                    <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/ae2d1eaab4adfb08e1f28763b8ba6ffb2d921967.php	/^                <?php $__currentLoopData = $resident->transactions; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $transaction): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/ae2d1eaab4adfb08e1f28763b8ba6ffb2d921967.php	/^            <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/afc672dfb9ffdeeb28af851d838feb1e368dd47a.php	/^    <?php $__currentLoopData = $resident->notes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $note): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/c92a323516a3bf0d5c5dc66bf7b0ed4d50251dfe.php	/^            <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__currentLoopData	storage/framework/views/dfefa8121458367f15ce99c506da2b487ebd8f47.php	/^                            <?php $__currentLoopData = $residents; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $resident): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>$/;"	v
+__webpack_require__	public/js/app.js	/^\/******\/ 	function __webpack_require__(moduleId) {$/;"	f
+__webpack_require__.d	public/js/app.js	/^\/******\/ 	__webpack_require__.d = function(exports, name, getter) {$/;"	f
+__webpack_require__.i	public/js/app.js	/^\/******\/ 	__webpack_require__.i = function(value) { return value; };$/;"	f
+__webpack_require__.n	public/js/app.js	/^\/******\/ 	__webpack_require__.n = function(module) {$/;"	f
+__webpack_require__.o	public/js/app.js	/^\/******\/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };$/;"	f
+a_guest_should_be_redirected_to_login_page	tests/Unit/LoginTest.php	/^    public function a_guest_should_be_redirected_to_login_page()$/;"	f
+a_logged_in_user_should_be_able_to_navigate_freely	tests/Unit/LoginTest.php	/^    public function a_logged_in_user_should_be_able_to_navigate_freely()$/;"	f
+a_password_is_required_to_login	tests/Browser/LoginTest.php	/^    public function a_password_is_required_to_login()$/;"	f
+a_signed_in_user_can_see_the_homepage	tests/Browser/HomePageTest.php	/^    public function a_signed_in_user_can_see_the_homepage()$/;"	f
+a_signed_in_user_can_see_the_residents_page	tests/Browser/ResidentsTest.php	/^    public function a_signed_in_user_can_see_the_residents_page()$/;"	f
+a_signed_in_user_can_see_the_single_resident_page	tests/Browser/ResidentsTest.php	/^    public function a_signed_in_user_can_see_the_single_resident_page()$/;"	f
+a_user_can_login	tests/Browser/LoginTest.php	/^    public function a_user_can_login()$/;"	f
+a_username_is_required_to_login	tests/Browser/LoginTest.php	/^    public function a_username_is_required_to_login()$/;"	f
+admit	tests/Unit/ManDaysForResidentTest.php	/^        $admit  = Carbon::create(2016, 12, 20, 12)->toDateString();$/;"	v
+admit	tests/Unit/ManDaysForResidentTest.php	/^        $admit  = Carbon::create(2017, 1, 1)->toDateString();$/;"	v
+admit	tests/Unit/ManDaysForResidentTest.php	/^        $admit  = Carbon::create(2017, 1, 1, 12)->toDateString();$/;"	v
+admitDate	app/Http/Controllers/ReportsController.php	/^    public function admitDate()$/;"	f
+admitDate	app/Resident.php	/^            $admitDate       = $admitDateTmp->lessThanOrEqualTo($firstDayOfMonth) ? $firstDayOfMonth : $admitDateTmp;$/;"	v
+admitDate	app/Resident.php	/^            $admitDate    = $admitDateTmp->lt($firstDayOfMonth) ? $firstDayOfMonth : $admitDateTmp;$/;"	v
+admitDate	app/Resident.php	/^        $admitDate   = Carbon::parse($resident->date_of_admission);$/;"	v
+admitDate	tests/Feature/SARInvoiceTest.php	/^		$admitDate   = Carbon::create(2017, 1, 10)->toDateString();$/;"	v
+admitDate	tests/Feature/SARInvoiceTest.php	/^        $admitDate   = Carbon::create(2017, 5, 3)->toDateString();$/;"	v
+admitDate	tests/Unit/ManDaysForMonthTest.php	/^        $admitDate     = Carbon::now()->firstOfMonth()->toDateString();$/;"	v
+admitDate	tests/Unit/ManDaysForMonthTest.php	/^        $admitDate   = Carbon::create(2017, 5, 1);$/;"	v
+admitDateTmp	app/Resident.php	/^            $admitDateTmp    = Carbon::parse($resident->date_of_admission);$/;"	v
+admitDateTmp	app/Resident.php	/^            $admitDateTmp = Carbon::parse($resident->date_of_admission);$/;"	v
+aliases	config/app.php	/^    | This array of class aliases will be registered when this application$/;"	c
+allResidents	app/Http/Controllers/InvoiceController.php	/^        $allResidents = Resident::where('facility', $facility)->get()->sortBy('last_name');$/;"	v
+app	bootstrap/app.php	/^$app = new Illuminate\\Foundation\\Application($/;"	v
+app	public/index.php	/^$app = require_once __DIR__.'\/..\/bootstrap\/app.php';$/;"	v
+app	tests/CreatesApplication.php	/^        $app = require __DIR__.'\/..\/bootstrap\/app.php';$/;"	v
+as	config/mail.php	/^    | Laravel supports both SMTP and PHP's "mail" function as drivers for the$/;"	f
+assert	tests/Browser/Pages/HomePage.php	/^    public function assert(Browser $browser)$/;"	f
+authorize	app/Http/Requests/FacilityInfoRequest.php	/^    public function authorize()$/;"	f
+authorize	app/Http/Requests/TransactionRequest.php	/^    public function authorize()$/;"	f
+balance	app/Http/Controllers/InvoiceController.php	/^        $balance = $request->balance;$/;"	v
+balance	app/Http/Controllers/TransactionReportsController.php	/^        $balance = money_format('%.2n', ($credits - $debits) \/ 100);$/;"	v
+balance	resources/views/home.blade.php	/^        $balance = money_format('%.2n', ($credits - $debits) \/ 100);$/;"	v
+balance	storage/framework/views/ee2c6dd14b8919bb0881d3466d61c7ee04b13dd2.php	/^        $balance = money_format('%.2n', ($credits - $debits) \/ 100);$/;"	v
+balanceColor	resources/views/partials/transactions.blade.php	/^                $balanceColor = 'credit';$/;"	v
+balanceColor	resources/views/partials/transactions.blade.php	/^            $balanceColor = 'debit';$/;"	v
+balanceColor	storage/framework/views/06d22fd6009303ba9f76358fc1b4b0fd08e7d1ee.php	/^                $balanceColor = 'credit';$/;"	v
+balanceColor	storage/framework/views/06d22fd6009303ba9f76358fc1b4b0fd08e7d1ee.php	/^            $balanceColor = 'debit';$/;"	v
+boot	app/Providers/AppServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/AuthServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/BroadcastServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/EventServiceProvider.php	/^    public function boot()$/;"	f
+boot	app/Providers/RouteServiceProvider.php	/^    public function boot()$/;"	f
+build	app/Mail/TransactionCreated.php	/^    public function build()$/;"	f
+calculateManDays	app/Resident.php	/^    public static function calculateManDays($resident)$/;"	f
+calculateManDaysForCurrentMonth	app/Resident.php	/^    public static function calculateManDaysForCurrentMonth($resident = null)$/;"	f
+calculateManDaysForFiscalYear	app/Resident.php	/^    public static function calculateManDaysForFiscalYear($year, $month)$/;"	f
+calculateManDaysForMonth	app/Resident.php	/^    public static function calculateManDaysForMonth($year, $month, $resident = null)$/;"	f
+checkedDateBeginning	app/Resident.php	/^        $checkedDateBeginning = Carbon::create($year, $month)->firstOfMonth();$/;"	v
+checkedDateEnd	app/Resident.php	/^        $checkedDateEnd = Carbon::create($year, $month)->endOfMonth();$/;"	v
+class	app/Http/Controllers/TransactionController.php	/^            $class = 'credit';$/;"	v
+class	app/Http/Controllers/TransactionController.php	/^            $class = 'debit';$/;"	v
+class	app/Http/Controllers/TransactionReportsController.php	/^        $class = ($credits - $debits > 0) ? 'credit' : 'debit';$/;"	v
+color	storage/framework/views/49c77be5cd40e46cdf716c5e8f585fafa8f0ada9.php	/^            $color = 'blue';$/;"	v
+color	storage/framework/views/49c77be5cd40e46cdf716c5e8f585fafa8f0ada9.php	/^            $color = 'green';$/;"	v
+color	storage/framework/views/49c77be5cd40e46cdf716c5e8f585fafa8f0ada9.php	/^            $color = 'red';$/;"	v
+commands	app/Console/Kernel.php	/^    protected $commands = [$/;"	v
+commands	app/Console/Kernel.php	/^    protected function commands()$/;"	f
+config	public/index.php	/^$config = array($/;"	v
+contractTerm	app/Http/Controllers/InvoiceController.php	/^        $contractTerm = $request->contractTerm;$/;"	v
+contract_number	app/Http/Requests/FacilityInfoRequest.php	/^    protected $contract_number;$/;"	v
+contractor_name	app/Http/Requests/FacilityInfoRequest.php	/^    protected $contractor_name;$/;"	v
+counselor	app/Http/Controllers/ReportsController.php	/^    public function counselor()$/;"	f
+count	app/Http/Controllers/FacilityReportsController.php	/^                $count    = $releases->count();$/;"	v
+count	app/Http/Controllers/FacilityReportsController.php	/^                $count   = $intakes->count();$/;"	v
+create	app/Http/Controllers/Auth/RegisterController.php	/^    protected function create(array $data)$/;"	f
+create	app/Http/Controllers/EmployerController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/FacilityInfoController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/NoteController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/ResidentController.php	/^    public function create()$/;"	f
+create	app/Http/Controllers/TransactionController.php	/^    public function create(Resident $resident)$/;"	f
+createApplication	tests/CreatesApplication.php	/^    public function createApplication()$/;"	f
+credit	app/Http/Controllers/TransactionController.php	/^        $credit = Transaction::parseCurrency($request->credit);$/;"	v
+credit	app/Resident.php	/^        $credit = Transaction::where('resident_id', $id)->pluck('credit')->sum();$/;"	v
+credits	app/Http/Controllers/TransactionReportsController.php	/^        $credits = $transactions->pluck('credit')->sum();$/;"	v
+credits	resources/views/home.blade.php	/^        $credits   = App\\Resident::where('residents.facility', \\Auth::user()->facility)$/;"	v
+credits	storage/framework/views/ee2c6dd14b8919bb0881d3466d61c7ee04b13dd2.php	/^        $credits   = App\\Resident::where('residents.facility', \\Auth::user()->facility)$/;"	v
+currency	app/Transaction.php	/^        $currency = ((float) $currency) * 100;$/;"	v
+currency	app/Transaction.php	/^        $currency = preg_replace('\/\\$\/', '', $currencyString);$/;"	v
+currentBalance	app/Http/Controllers/TransactionController.php	/^        $currentBalance = money_format('%.2n', (($residentCredits - $residentDebits) \/ 100));$/;"	v
+currentBalance	resources/views/partials/transactions.blade.php	/^            $currentBalance = $resident->transactions()->sum('credit') \/ 100 - $resident->transactions()->sum('debit') \/ 100;$/;"	v
+currentBalance	storage/framework/views/06d22fd6009303ba9f76358fc1b4b0fd08e7d1ee.php	/^            $currentBalance = $resident->transactions()->sum('credit') \/ 100 - $resident->transactions()->sum('debit') \/ 100;$/;"	v
+currentDayOfMonth	tests/Unit/ManDaysForResidentTest.php	/^        $currentDayOfMonth = Carbon::now()->day;$/;"	v
+currentManDays	app/Http/Controllers/HomeController.php	/^        $currentManDays = Resident::calculateManDaysForCurrentMonth();$/;"	v
+data	app/Http/Controllers/TransactionController.php	/^        $data = array($/;"	v
+date	app/Http/Controllers/FacilityReportsController.php	/^        $date     = $request->date;$/;"	v
+date	app/Http/Controllers/FacilityReportsController.php	/^        $date  = Carbon::parse($date);$/;"	v
+date	app/Resident.php	/^        $date            = Carbon::now();$/;"	v
+date	tests/Unit/ManDaysTest.php	/^        $date     = Carbon::now();$/;"	v
+date	tests/Unit/ManDaysTest.php	/^        $date = Carbon::now();$/;"	v
+dayOfTheMonth	tests/Unit/ManDaysForMonthTest.php	/^        $dayOfTheMonth = Carbon::now()->day;$/;"	v
+daysForFY	tests/Unit/ManDaysForResidentTest.php	/^        $daysForFY = Resident::calculateManDaysForFiscalYear(2017, 1);$/;"	v
+daysInMonth	app/Http/Controllers/InvoiceController.php	/^        $daysInMonth = Carbon::create($year, $month)->daysInMonth;$/;"	v
+debit	app/Http/Controllers/TransactionController.php	/^        $debit  = Transaction::parseCurrency($request->debit);$/;"	v
+debit	app/Resident.php	/^        $debit = Transaction::where('resident_id', $id)->pluck('debit')->sum();$/;"	v
+debits	app/Http/Controllers/TransactionReportsController.php	/^        $debits  = $transactions->pluck('debit')->sum();$/;"	v
+debits	resources/views/home.blade.php	/^        $debits    = App\\Resident::where('residents.facility', \\Auth::user()->facility)$/;"	v
+debits	storage/framework/views/ee2c6dd14b8919bb0881d3466d61c7ee04b13dd2.php	/^        $debits    = App\\Resident::where('residents.facility', \\Auth::user()->facility)$/;"	v
+debounce	resources/views/residents/index.blade.php	/^        function debounce(fn, threshold) {$/;"	f
+debounce	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^        function debounce(fn, threshold) {$/;"	f
+debounced	resources/views/residents/index.blade.php	/^            return function debounced() {$/;"	f
+debounced	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^            return function debounced() {$/;"	f
+delayed	resources/views/residents/index.blade.php	/^                function delayed() {$/;"	f
+delayed	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^                function delayed() {$/;"	f
+destroy	app/Http/Controllers/EmployerController.php	/^    public function destroy(Employer $employer)$/;"	f
+destroy	app/Http/Controllers/FacilityInfoController.php	/^    public function destroy(FacilityInfo $facilityInfo)$/;"	f
+destroy	app/Http/Controllers/NoteController.php	/^    public function destroy(Note $note)$/;"	f
+destroy	app/Http/Controllers/ResidentController.php	/^    public function destroy(Resident $resident)$/;"	f
+destroy	app/Http/Controllers/TransactionController.php	/^    public function destroy(Transaction $transaction)$/;"	f
+diff	app/Resident.php	/^        $diff = $fyStart->diffInMonths($today) != 0 ? $fyStart->diffInMonths($today) : 12;$/;"	v
+discharge	tests/Unit/ManDaysForResidentTest.php	/^        $discharge = Carbon::create(2017, 2, 1)->toDateString();$/;"	v
+dob	app/Http/Controllers/ReportsController.php	/^    public function dob()$/;"	f
+dob	app/Http/Controllers/ResidentController.php	/^        $dob = Carbon::parse($request->dob);$/;"	v
+dompdf	config/dompdf.php	/^         * $dompdf = new DOMPDF();	$dompdf->load_html($htmldata); $dompdf->render(); $pdfdata = $dompdf->output();$/;"	v
+dompdf	config/dompdf.php	/^         * $dompdf = new DOMPDF(, $dompdf->load_html(...,$/;"	v
+dontReport	app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	v
+down	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f
+down	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_04_23_181645_create_residents_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_04_30_052843_create_transactions_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_03_160448_create_notes_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_20_182140_create_employers_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_20_183636_add_employer_to_residents_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_23_041748_add_facility_to_users_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_23_043913_add_facility_to_transactions_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_26_031504_drop_facility_from_transactions_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_05_31_043937_add_email_to_residents_table.php	/^    public function down()$/;"	f
+down	database/migrations/2017_06_07_212111_change_drug_to_nullable.php	/^    public function down()$/;"	f
+down	database/migrations/2017_06_14_052413_create_facility_info_table.php	/^    public function down()$/;"	f
+download	app/Http/Controllers/ReportsController.php	/^    public function download($sortBy)$/;"	f
+downloadLink	app/Http/Controllers/ReportsController.php	/^        $downloadLink = '\/report\/download\/counselor';$/;"	v
+downloadLink	app/Http/Controllers/ReportsController.php	/^        $downloadLink = '\/report\/download\/date_of_admission';$/;"	v
+downloadLink	app/Http/Controllers/ReportsController.php	/^        $downloadLink = '\/report\/download\/dob';$/;"	v
+downloadLink	app/Http/Controllers/ReportsController.php	/^        $downloadLink = '\/report\/download\/last_name';$/;"	v
+downloadLink	app/Http/Controllers/ReportsController.php	/^        $downloadLink = '\/report\/download\/projected_date_of_discharge';$/;"	v
+driver	tests/DuskTestCase.php	/^    protected function driver()$/;"	f
+edit	app/Http/Controllers/EmployerController.php	/^    public function edit(Employer $employer)$/;"	f
+edit	app/Http/Controllers/FacilityInfoController.php	/^    public function edit(FacilityInfo $facilityInfo)$/;"	f
+edit	app/Http/Controllers/NoteController.php	/^    public function edit(Note $note)$/;"	f
+edit	app/Http/Controllers/ResidentController.php	/^    public function edit(Resident $resident)$/;"	f
+edit	app/Http/Controllers/TransactionController.php	/^    public function edit(Transaction $transaction)$/;"	f
+elements	tests/Browser/Pages/HomePage.php	/^    public function elements()$/;"	f
+endDate	database/factories/ModelFactory.php	/^    $endDate   = Carbon::createFromFormat('Y-m-d H:i:s', $startDate)->addMonth();$/;"	v
+end_date	app/Http/Controllers/TransactionReportsController.php	/^        $end_date    = isset($request->end_date) ? Carbon::parse($request->end_date)->toDateString() : null;$/;"	v
+except	app/Http/Middleware/EncryptCookies.php	/^    protected $except = [$/;"	v
+except	app/Http/Middleware/TrimStrings.php	/^    protected $except = [$/;"	v
+except	app/Http/Middleware/VerifyCsrfToken.php	/^    protected $except = [$/;"	v
+expended	app/Http/Controllers/InvoiceController.php	/^        $expended = $request->expended;$/;"	v
+facility	app/Http/Controllers/FacilityReportsController.php	/^        $facility = $request->facility;$/;"	v
+facility	app/Mail/TransactionCreated.php	/^        $facility     = $resident->facility;$/;"	v
+facilityInfo	app/Http/Controllers/FacilityInfoController.php	/^        $facilityInfo = FacilityInfo::where('facility_name', \\Auth::user()->facility)->first();$/;"	v
+facilityInfo	app/Http/Controllers/InvoiceController.php	/^        $facilityInfo = FacilityInfo::where('facility_name', \\Auth::user()->facility)->first();$/;"	v
+facilityName	app/Http/Controllers/FacilityInfoController.php	/^        $facilityName = \\Auth::user()->facility;$/;"	v
+facility_name	app/Http/Requests/FacilityInfoRequest.php	/^    protected $facility_name;$/;"	v
+fein_number	app/Http/Requests/FacilityInfoRequest.php	/^    protected $fein_number;$/;"	v
+fillable	app/Transaction.php	/^    protected $fillable = [$/;"	v
+fillable	app/User.php	/^    protected $fillable = [$/;"	v
+filter	resources/views/residents/index.blade.php	/^            filter: function () {$/;"	j
+filter	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^            filter: function () {$/;"	j
+firstDate	tests/Unit/ManDaysForMonthTest.php	/^        $firstDate  = Carbon::create(2017, 1, 1, 12);$/;"	v
+firstDayOfMonth	app/Resident.php	/^            $firstDayOfMonth = Carbon::now()->year($year)->month($month)->firstOfMonth();$/;"	v
+firstDayOfMonth	app/Resident.php	/^        $firstDayOfMonth = Carbon::now()->firstOfMonth();$/;"	v
+first_day_should_be_counted	tests/Unit/ManDaysTest.php	/^    public function first_day_should_be_counted()$/;"	f
+flatpickr	resources/assets/js/app.js	/^var flatpickr = require("flatpickr");$/;"	v
+fyStart	app/Resident.php	/^        $fyStart = $today->month >= 7 ? $today->copy()->month(7)->firstOfMonth() : $today->copy()->subYear(1)->month(7)->firstOfMonth();$/;"	v
+generate	app/Http/Controllers/InvoiceController.php	/^    public function generate(Request $request, $facility, $year, $month)$/;"	f
+getAge	resources/assets/js/app.js	/^function getAge(dateStr) {$/;"	f
+getPerDiemAttribute	app/FacilityInfo.php	/^    public function getPerDiemAttribute($per_diem)$/;"	f
+grid	resources/views/residents/index.blade.php	/^        var $grid = $('.grid').isotope({$/;"	v
+grid	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^        var $grid = $('.grid').isotope({$/;"	v
+guard	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	v
+guarded	app/FacilityInfo.php	/^    protected $guarded = [];$/;"	v
+guarded	app/Note.php	/^    protected $guarded = [];$/;"	v
+guarded	app/Resident.php	/^    protected $guarded = [];$/;"	v
+handle	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	f
+hidden	app/User.php	/^    protected $hidden = [$/;"	v
+id	app/Http/Controllers/FacilityInfoController.php	/^        $id = $facilityInfo->id;$/;"	v
+index	app/Http/Controllers/EmployerController.php	/^    public function index()$/;"	f
+index	app/Http/Controllers/FacilityInfoController.php	/^    public function index()$/;"	f
+index	app/Http/Controllers/HomeController.php	/^    public function index()$/;"	f
+index	app/Http/Controllers/NoteController.php	/^    public function index()$/;"	f
+index	app/Http/Controllers/ResidentController.php	/^    public function index()$/;"	f
+index	app/Http/Controllers/TransactionController.php	/^    public function index()$/;"	f
+intakes	app/Http/Controllers/FacilityReportsController.php	/^                $intakes = $this->intakesReport($facility, $date);$/;"	v
+intakes	app/Http/Controllers/FacilityReportsController.php	/^            $intakes = DB::table('residents')$/;"	v
+intakes	app/Http/Controllers/FacilityReportsController.php	/^        $intakes = DB::table('residents')$/;"	v
+intakes	app/Http/Controllers/HomeController.php	/^        $intakes        = array();$/;"	v
+intakesReport	app/Http/Controllers/FacilityReportsController.php	/^    private function intakesReport($facility, $date)$/;"	f
+invoiceMonth	app/Http/Controllers/InvoiceController.php	/^        $invoiceMonth = Carbon::create($year, $month)->format('F, Y');$/;"	v
+invoiceNumber	app/Http/Controllers/InvoiceController.php	/^        $invoiceNumber = Carbon::create($year, $month)->format('m-Y');$/;"	v
+is	config/laravel-backup.php	/^     * You can also use your own notification classes, just make sure the class is named after one of$/;"	c
+it_has_a_login_page	tests/Browser/LoginTest.php	/^    public function it_has_a_login_page()$/;"	f
+it_should_calculate_a_residents_man_days_for_a_specified_month	tests/Unit/ManDaysForResidentTest.php	/^    public function it_should_calculate_a_residents_man_days_for_a_specified_month()$/;"	f
+it_should_calculate_a_residents_man_days_for_the_current_month	tests/Unit/ManDaysForResidentTest.php	/^    public function it_should_calculate_a_residents_man_days_for_the_current_month()$/;"	f
+it_should_calculate_all_man_days_for_specified_month	tests/Unit/ManDaysForMonthTest.php	/^    public function it_should_calculate_all_man_days_for_specified_month()$/;"	f
+it_should_calculate_man_days_for_current_month	tests/Unit/ManDaysForMonthTest.php	/^    public function it_should_calculate_man_days_for_current_month()$/;"	f
+it_should_calculate_man_days_for_fiscal_year	tests/Unit/ManDaysForMonthTest.php	/^    public function it_should_calculate_man_days_for_fiscal_year()$/;"	f
+it_should_calculate_man_days_for_the_current_year	tests/Unit/ManDaysForResidentTest.php	/^    public function it_should_calculate_man_days_for_the_current_year()$/;"	f
+it_should_create_a_resident	tests/Unit/ResidentTest.php	/^    public function it_should_create_a_resident()$/;"	f
+it_should_edit_a_resident	tests/Unit/ResidentTest.php	/^    public function it_should_edit_a_resident()$/;"	f
+it_should_generate_an_invoice	tests/Feature/SARInvoiceTest.php	/^    public function it_should_generate_an_invoice()$/;"	f
+it_should_get_the_total_balance_for_a_resident	tests/Feature/ResidentTransactionTest.php	/^    public function it_should_get_the_total_balance_for_a_resident()$/;"	f
+it_should_handle_all_date_formats_for_dob	tests/Unit/ResidentTest.php	/^    public function it_should_handle_all_date_formats_for_dob()$/;"	f
+it_should_have_an_invoice_select_page	tests/Feature/SARInvoiceTest.php	/^    public function it_should_have_an_invoice_select_page()$/;"	f
+it_should_not_calculate_the_last_day	tests/Feature/SARInvoiceTest.php	/^	public function it_should_not_calculate_the_last_day() {$/;"	f
+kernel	public/index.php	/^$kernel = $app->make(Illuminate\\Contracts\\Http\\Kernel::class);$/;"	v
+knownDate	tests/Unit/ManDaysTest.php	/^        $knownDate = Carbon::create(2017, 1, 1, 0);$/;"	v
+lastDayOfMonth	app/Resident.php	/^            $lastDayOfMonth  = Carbon::now()->year($year)->month($month)->lastOfMonth();$/;"	v
+lastName	app/Http/Controllers/ReportsController.php	/^    public function lastName()$/;"	f
+listen	app/Providers/EventServiceProvider.php	/^    protected $listen = [$/;"	v
+loader	bootstrap/autoload.php	/^| Composer provides a convenient, automatically generated class loader$/;"	c
+loader	public/index.php	/^| Composer provides a convenient, automatically generated class loader for$/;"	c
+loop	storage/framework/views/06d22fd6009303ba9f76358fc1b4b0fd08e7d1ee.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/12543b0c6f9f329b5b9489e00ceef0536db510a0.php	/^                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/1e58fe51fc8581d3a7b1ca8b9d0acada96c5eda0.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/21bcabccb9f3993d730d36f621316dee5280695e.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/2d9c79f26e30b78dbad2cf85bbf37e19279b561c.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/3aa49362e48d26557c465bb3d482edc7c879b07a.php	/^                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/49c77be5cd40e46cdf716c5e8f585fafa8f0ada9.php	/^<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/97d0901927519b712ab09231224f17e9c01e4f9b.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/9ca4947af62948fe5575172e1c2db02e25f4c229.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/a02a19c467436cc80e17e760962c14d6d1506433.php	/^                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/ae2d1eaab4adfb08e1f28763b8ba6ffb2d921967.php	/^                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/ae2d1eaab4adfb08e1f28763b8ba6ffb2d921967.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/afc672dfb9ffdeeb28af851d838feb1e368dd47a.php	/^    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/c92a323516a3bf0d5c5dc66bf7b0ed4d50251dfe.php	/^            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+loop	storage/framework/views/dfefa8121458367f15ce99c506da2b487ebd8f47.php	/^                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>$/;"	v
+manDays	app/Http/Controllers/HomeController.php	/^        $manDays        = array();$/;"	v
+manDays	app/Resident.php	/^        $manDays = $admitDate->diffInDays($releaseDate);$/;"	v
+manDays	tests/Unit/ManDaysForMonthTest.php	/^        $manDays = Resident::calculateManDaysForCurrentMonth();$/;"	v
+manDays	tests/Unit/ManDaysForMonthTest.php	/^        $manDays = Resident::calculateManDaysForMonth($firstDate->year, $firstDate->month);$/;"	v
+manDays	tests/Unit/ManDaysForResidentTest.php	/^        $manDays = Resident::calculateManDaysForCurrentMonth($resident);$/;"	v
+manDays	tests/Unit/ManDaysForResidentTest.php	/^        $manDays = Resident::calculateManDaysForMonth(2017, 4, $resident);$/;"	v
+manDays	tests/Unit/ManDaysTest.php	/^        $manDays = 0;$/;"	v
+manDays	tests/Unit/ManDaysTest.php	/^        $manDays = Resident::calculateManDays($resident);$/;"	v
+manDaysFY	app/Http/Controllers/InvoiceController.php	/^        $manDaysFY = Resident::calculateManDaysForFiscalYear($year, $month);$/;"	v
+man_days_should_not_count_date_of_discharge	tests/Unit/ManDaysTest.php	/^    public function man_days_should_not_count_date_of_discharge()$/;"	f
+manfy	tests/Unit/ManDaysForMonthTest.php	/^        $manfy = Resident::calculateManDaysForFiscalYear(2017, 5);$/;"	v
+map	app/Providers/RouteServiceProvider.php	/^    public function map()$/;"	f
+mapApiRoutes	app/Providers/RouteServiceProvider.php	/^    protected function mapApiRoutes()$/;"	f
+mapWebRoutes	app/Providers/RouteServiceProvider.php	/^    protected function mapWebRoutes()$/;"	f
+max_annual_bed_days	app/Http/Requests/FacilityInfoRequest.php	/^    protected $max_annual_bed_days;$/;"	v
+messages	app/Http/Requests/TransactionRequest.php	/^    public function messages()$/;"	f
+middleware	app/Http/Kernel.php	/^    protected $middleware = [$/;"	v
+middlewareGroups	app/Http/Kernel.php	/^    protected $middlewareGroups = [$/;"	v
+moment	resources/assets/js/app.js	/^var moment = require('moment');$/;"	v
+month	app/Http/Controllers/FacilityReportsController.php	/^        $month = $date->month;$/;"	v
+month	app/Resident.php	/^            $month = $today->copy()->subMonthsNoOverflow($i)->month;$/;"	v
+month	app/Resident.php	/^        $month           = $date->month;$/;"	v
+monthOfServiceDelivery	app/Http/Controllers/InvoiceController.php	/^        $monthOfServiceDelivery = strtoupper(Carbon::parse(Carbon::create($year, $month))->format('MY'));$/;"	v
+namespace	app/Providers/RouteServiceProvider.php	/^    protected $namespace = 'App\\Http\\Controllers';$/;"	v
+note	app/Http/Controllers/NoteController.php	/^        $note = Note::create($request->all());$/;"	v
+notes	app/Resident.php	/^    public function notes()$/;"	f
+notes	app/User.php	/^    public function notes()$/;"	f
+one_day_equals_one_man_day_for_one_resident	tests/Unit/ManDaysTest.php	/^    public function one_day_equals_one_man_day_for_one_resident()$/;"	f
+one_day_equals_two_man_days_for_two_residents	tests/Unit/ManDaysTest.php	/^    public function one_day_equals_two_man_days_for_two_residents()$/;"	f
+paid	app/Http/Controllers/InvoiceController.php	/^        $paid = $request->paid;$/;"	v
+parseCurrency	app/Transaction.php	/^    public static function parseCurrency($currencyString)$/;"	f
+password	database/factories/ModelFactory.php	/^        'password'       => $password ?: $password = bcrypt('secret'),$/;"	v
+password	database/factories/ModelFactory.php	/^    static $password;$/;"	v
+pdf	app/Http/Controllers/ReportsController.php	/^        $pdf = PDF::loadView('reports.residentIndex', [$downloadLink, $residents, $pdfLink, $sortType]);$/;"	v
+pdfLink	app/Http/Controllers/ReportsController.php	/^        $pdfLink      = '\/report\/stream\/dob';$/;"	v
+per_diem	app/Http/Requests/FacilityInfoRequest.php	/^    protected $per_diem;$/;"	v
+policies	app/Providers/AuthServiceProvider.php	/^    protected $policies = [$/;"	v
+prepare	tests/DuskTestCase.php	/^    public static function prepare()$/;"	f
+pride	app/Http/Controllers/InvoiceController.php	/^        $pride = $request->pride;$/;"	v
+printable	app/Http/Controllers/InvoiceController.php	/^    public function printable(Request $request, $facility, $year, $month)$/;"	f
+quicksearch	resources/views/residents/index.blade.php	/^        var $quicksearch = $('.quicksearch').keyup(debounce(function () {$/;"	v
+quicksearch	storage/framework/views/6539c80e55a8b1ffb211527dac3be0aafa6fa8ea.php	/^        var $quicksearch = $('.quicksearch').keyup(debounce(function () {$/;"	v
+reasons	app/Http/Controllers/TransactionReportsController.php	/^        $reasons     = $request->reason;$/;"	v
+redirectTo	app/Http/Controllers/Auth/LoginController.php	/^    protected $redirectTo = '\/home';$/;"	v
+redirectTo	app/Http/Controllers/Auth/RegisterController.php	/^    protected $redirectTo = '\/home';$/;"	v
+redirectTo	app/Http/Controllers/Auth/ResetPasswordController.php	/^    protected $redirectTo = '\/home';$/;"	v
+register	app/Providers/AppServiceProvider.php	/^    public function register()$/;"	f
+release	tests/Unit/ManDaysForResidentTest.php	/^        $release = Carbon::create(2017, 6, 9, 12)->toDateString();$/;"	v
+releaseDate	app/Http/Controllers/ReportsController.php	/^    public function releaseDate()$/;"	f
+releaseDate	app/Resident.php	/^            $releaseDate     = $resident->actual_date_of_discharge == null || Carbon::parse($resident->actual_date_of_discharge)->greaterThan($lastDayOfMonth) ? $lastDayOfMonth->addDay() :$/;"	v
+releaseDate	app/Resident.php	/^            $releaseDate  = $resident->actual_date_of_discharge == null ? $tomorrow :$/;"	v
+releaseDate	app/Resident.php	/^        $releaseDate = $resident->actual_date_of_discharge == null ? Carbon::now() :$/;"	v
+releaseDate	tests/Feature/SARInvoiceTest.php	/^		$releaseDate = Carbon::create(2017, 6, 30)->toDateString();$/;"	v
+releaseDate	tests/Feature/SARInvoiceTest.php	/^        $releaseDate = Carbon::create(2017, 5, 7)->toDateString();$/;"	v
+releaseDate	tests/Unit/ManDaysForMonthTest.php	/^        $releaseDate = Carbon::createFromDate(2017, 5, 30);$/;"	v
+releases	app/Http/Controllers/FacilityReportsController.php	/^                $releases = $this->releasesReport($facility, $date);$/;"	v
+releases	app/Http/Controllers/FacilityReportsController.php	/^            $releases = DB::table('residents')$/;"	v
+releases	app/Http/Controllers/FacilityReportsController.php	/^        $releases = DB::table('residents')$/;"	v
+releases	app/Http/Controllers/HomeController.php	/^        $releases       = array();$/;"	v
+releasesReport	app/Http/Controllers/FacilityReportsController.php	/^    private function releasesReport($facility, $date)$/;"	f
+render	app/Exceptions/Handler.php	/^    public function render($request, Exception $exception)$/;"	f
+report	app/Exceptions/Handler.php	/^    public function report(Exception $exception)$/;"	f
+report	app/Http/Controllers/FacilityReportsController.php	/^        $report   = $request->report;$/;"	v
+request	public/index.php	/^    $request = Illuminate\\Http\\Request::capture()$/;"	v
+resident	app/Http/Controllers/ResidentController.php	/^        $resident = Resident::create([$/;"	v
+resident	app/Http/Controllers/ResidentController.php	/^        $resident = Resident::with('notes', 'transactions')->find($resident->id);$/;"	v
+resident	app/Http/Controllers/ResidentController.php	/^\/\/        $resident     = Resident::create($request->all());$/;"	v
+resident	app/Http/Controllers/TransactionController.php	/^        $resident = $resident->with('transactions')->find($resident->id);$/;"	v
+resident	app/Http/Controllers/TransactionController.php	/^        $resident = Resident::find($transaction->resident_id);$/;"	v
+resident	app/Http/Controllers/TransactionController.php	/^        $resident = Resident::findOrFail($transaction->resident_id);$/;"	v
+resident	app/Mail/TransactionCreated.php	/^        $resident     = Resident::findOrFail($residentId);$/;"	v
+resident	app/Note.php	/^    public function resident()$/;"	f
+resident	app/Resident.php	/^    public static function calculateManDaysForMonth($year, $month, $resident = null)$/;"	v
+resident	app/Transaction.php	/^    public function resident()$/;"	f
+resident	tests/Browser/ResidentsTest.php	/^        $resident = factory(Resident::class)->create([$/;"	v
+resident	tests/Feature/ResidentTransactionTest.php	/^        $resident = factory('App\\Resident')->create();$/;"	v
+resident	tests/Feature/SARInvoiceTest.php	/^		$resident = factory(Resident::class)->create([$/;"	v
+resident	tests/Feature/SARInvoiceTest.php	/^        $resident = factory(Resident::class)->create([$/;"	v
+resident	tests/Unit/ManDaysForResidentTest.php	/^        $resident = factory(Resident::class)->create([$/;"	v
+resident	tests/Unit/ManDaysTest.php	/^        $resident = factory(Resident::class)->create([$/;"	v
+resident	tests/Unit/ResidentTest.php	/^        $resident = factory(Resident::class)->create();$/;"	v
+residentArray	tests/Unit/ResidentTest.php	/^        $residentArray = [$/;"	v
+residentCredits	app/Http/Controllers/TransactionController.php	/^        $residentCredits = Transaction::where('resident_id', $transaction->resident_id)$/;"	v
+residentDebits	app/Http/Controllers/TransactionController.php	/^        $residentDebits  = Transaction::where('resident_id', $transaction->resident_id)$/;"	v
+residentId	app/Mail/TransactionCreated.php	/^        $residentId   = $this->transaction->resident->id;$/;"	v
+resident_id	app/Http/Controllers/TransactionReportsController.php	/^        $resident_id = $request->resident_id;$/;"	v
+residents	app/Http/Controllers/InvoiceController.php	/^        $residents = [];$/;"	v
+residents	app/Http/Controllers/ReportsController.php	/^                $residents = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy($sortBy);$/;"	v
+residents	app/Http/Controllers/ReportsController.php	/^        $residents    = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy('actual_date_of_discharge');$/;"	v
+residents	app/Http/Controllers/ReportsController.php	/^        $residents    = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy('counselor');$/;"	v
+residents	app/Http/Controllers/ReportsController.php	/^        $residents    = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy('date_of_admission');$/;"	v
+residents	app/Http/Controllers/ReportsController.php	/^        $residents    = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy('dob');$/;"	v
+residents	app/Http/Controllers/ReportsController.php	/^        $residents    = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy('last_name');$/;"	v
+residents	app/Http/Controllers/ResidentController.php	/^        $residents = DB::table('residents')->where('facility', \\Auth::user()->facility)->orderBy('last_name')->get();$/;"	v
+residents	app/Http/Controllers/TransactionReportsController.php	/^            $residents = Resident::with(['transactions' => function ($query) use ($start_date, $end_date, $reasons) {$/;"	v
+residents	app/Http/Controllers/TransactionReportsController.php	/^        $residents = Resident::where('facility', \\Auth::user()->facility)->get()->sortBy('last_name');$/;"	v
+residents	app/Resident.php	/^        $residents = DB::table('residents')$/;"	v
+residents	database/seeds/ResidentsTableSeeder.php	/^        $residents = Resident::all();$/;"	v
+residents	resources/views/home.blade.php	/^        $residents = App\\Resident::where('facility', \\Auth::user()->facility);$/;"	v
+residents	storage/framework/views/ee2c6dd14b8919bb0881d3466d61c7ee04b13dd2.php	/^        $residents = App\\Resident::where('facility', \\Auth::user()->facility);$/;"	v
+residents	tests/Unit/ManDaysTest.php	/^        $residents = factory(Resident::class, 2)->create([$/;"	v
+response	public/index.php	/^$response = $kernel->handle($/;"	v
+response	tests/Feature/SARInvoiceTest.php	/^        $response = $this->get('\/invoice\/select');$/;"	v
+response	tests/Feature/SARInvoiceTest.php	/^        $response = $this->post('\/invoice\/' . $resident->facility . '\/2017\/5');$/;"	v
+response	tests/Unit/LoginTest.php	/^        $response = $this->get('\/');$/;"	v
+response	tests/Unit/LoginTest.php	/^        $response = $this->get('\/resident');$/;"	v
+response	tests/Unit/LoginTest.php	/^        $response = $this->get('\/transaction');$/;"	v
+response	tests/Unit/ResidentTest.php	/^        $response = $this->post('\/resident', $residentArray);$/;"	v
+return	public/js/app.js	/^\/******\/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };$/;"	c
+return.hasOwnProperty	public/js/app.js	/^\/******\/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };$/;"	m
+routeMiddleware	app/Http/Kernel.php	/^    protected $routeMiddleware = [$/;"	v
+router	app/Http/Controllers/FacilityReportsController.php	/^    public function router(Request $request)$/;"	f
+rules	app/Http/Requests/FacilityInfoRequest.php	/^    public function rules()$/;"	f
+rules	app/Http/Requests/TransactionRequest.php	/^    public function rules()$/;"	f
+run	database/seeds/AdminSeeder.php	/^    public function run()$/;"	f
+run	database/seeds/DatabaseSeeder.php	/^    public function run()$/;"	f
+run	database/seeds/ResidentsTableSeeder.php	/^    public function run()$/;"	f
+run	database/seeds/UsersTableSeeder.php	/^    public function run()$/;"	f
+runReport	app/Http/Controllers/TransactionReportsController.php	/^    public function runReport(Request $request)$/;"	f
+schedule	app/Console/Kernel.php	/^    protected function schedule(Schedule $schedule)$/;"	f
+secondDate	tests/Unit/ManDaysForMonthTest.php	/^        $secondDate = Carbon::create(2017, 1, 2, 12);$/;"	v
+select	app/Http/Controllers/FacilityReportsController.php	/^    public function select()$/;"	f
+select	app/Http/Controllers/InvoiceController.php	/^    public function select()$/;"	f
+select	app/Http/Controllers/ResidentReportsController.php	/^    public function select()$/;"	f
+select	app/Http/Controllers/TransactionReportsController.php	/^    public function select()$/;"	f
+show	app/Http/Controllers/EmployerController.php	/^    public function show(Employer $employer)$/;"	f
+show	app/Http/Controllers/FacilityInfoController.php	/^    public function show(FacilityInfo $facilityInfo)$/;"	f
+show	app/Http/Controllers/NoteController.php	/^    public function show(Note $note)$/;"	f
+show	app/Http/Controllers/ResidentController.php	/^    public function show(Resident $resident)$/;"	f
+show	app/Http/Controllers/TransactionController.php	/^    public function show(Transaction $transaction)$/;"	f
+siteElements	tests/Browser/Pages/Page.php	/^    public static function siteElements()$/;"	f
+sortType	app/Http/Controllers/ReportsController.php	/^        $sortType     = 'counselor';$/;"	v
+sortType	app/Http/Controllers/ReportsController.php	/^        $sortType     = 'date of admission';$/;"	v
+sortType	app/Http/Controllers/ReportsController.php	/^        $sortType     = 'date of birth';$/;"	v
+sortType	app/Http/Controllers/ReportsController.php	/^        $sortType     = 'last name';$/;"	v
+sortType	app/Http/Controllers/ReportsController.php	/^        $sortType     = 'projected date of discharge';$/;"	v
+startDate	database/factories/ModelFactory.php	/^    $startDate = Carbon::createFromTimeStamp($faker->dateTimeBetween('-6 months', 'now')->getTimestamp());$/;"	v
+start_date	app/Http/Controllers/TransactionReportsController.php	/^        $start_date  = isset($request->start_date) ? Carbon::parse($request->start_date)->toDateString() : null;$/;"	v
+stayedHereDuring	app/Resident.php	/^    public static function stayedHereDuring($year, $month, $resident)$/;"	f
+store	app/Http/Controllers/EmployerController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/FacilityInfoController.php	/^    public function store(FacilityInfoRequest $request)$/;"	f
+store	app/Http/Controllers/NoteController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/ResidentController.php	/^    public function store(Request $request)$/;"	f
+store	app/Http/Controllers/TransactionController.php	/^    public function store(TransactionRequest $request)$/;"	f
+stream	app/Http/Controllers/ReportsController.php	/^    public function stream($sortBy)$/;"	f
+streamDOB	app/Http/Controllers/ReportsController.php	/^    public function streamDOB()$/;"	f
+street_address	app/Http/Requests/FacilityInfoRequest.php	/^    protected $street_address;$/;"	v
+sum	app/Resident.php	/^        $sum  = 0;$/;"	v
+sum	app/Resident.php	/^        $sum = 0;$/;"	v
+table	app/FacilityInfo.php	/^    protected $table = 'facility_info';$/;"	v
+testBasicTest	tests/Unit/ExampleTest.php	/^    public function testBasicTest()$/;"	f
+to	config/dompdf.php	/^         * Canvas_Factory} ultimately determines which rendering class to instantiate$/;"	c
+today	app/Resident.php	/^        $today = Carbon::create($year, $month)->endOfMonth();$/;"	v
+tomorrow	app/Resident.php	/^        $tomorrow        = Carbon::tomorrow();$/;"	v
+total	app/Resident.php	/^        $total = $credit - $debit;$/;"	v
+totalAllocation	app/Http/Controllers/InvoiceController.php	/^        $totalAllocation = $request->totalAllocation;$/;"	v
+totalBalance	app/Mail/TransactionCreated.php	/^        $totalBalance = Resident::totalBalance($residentId);$/;"	v
+totalBalance	app/Resident.php	/^    public static function totalBalance($id)$/;"	f
+totalBedDaysForMonth	app/Http/Controllers/InvoiceController.php	/^        $totalBedDaysForMonth = 0;$/;"	v
+totalBedDaysForMonth	tests/Feature/SARInvoiceTest.php	/^		$totalBedDaysForMonth = Resident::calculateManDaysForMonth(2017, 6, $resident);$/;"	v
+totalPaid	app/Http/Controllers/InvoiceController.php	/^        $totalPaid = $request->totalPaid;$/;"	v
+transaction	app/Http/Controllers/TransactionController.php	/^        $transaction = Transaction::create([$/;"	v
+transaction	app/Mail/TransactionCreated.php	/^        $this->transaction = $transaction;$/;"	v
+transaction	app/Mail/TransactionCreated.php	/^    public $transaction;$/;"	v
+transactionIndex	app/Http/Controllers/ReportsController.php	/^    public function transactionIndex()$/;"	f
+transactions	app/Http/Controllers/ReportsController.php	/^        $transactions = Transaction::where('facility', \\Auth::user()->facility)->get()->sortBy('date');$/;"	v
+transactions	app/Http/Controllers/TransactionReportsController.php	/^        $transactions = DB::table('transactions')$/;"	v
+transactions	app/Resident.php	/^    public function transactions()$/;"	f
+unauthenticated	app/Exceptions/Handler.php	/^    protected function unauthenticated($request, AuthenticationException $exception)$/;"	f
+up	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f
+up	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_04_23_181645_create_residents_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_04_30_052843_create_transactions_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_03_160448_create_notes_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_20_182140_create_employers_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_20_183636_add_employer_to_residents_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_23_041748_add_facility_to_users_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_23_043913_add_facility_to_transactions_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_26_031504_drop_facility_from_transactions_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_05_31_043937_add_email_to_residents_table.php	/^    public function up()$/;"	f
+up	database/migrations/2017_06_07_212111_change_drug_to_nullable.php	/^    public function up()$/;"	f
+up	database/migrations/2017_06_14_052413_create_facility_info_table.php	/^    public function up()$/;"	f
+update	app/Http/Controllers/EmployerController.php	/^    public function update(Request $request, Employer $employer)$/;"	f
+update	app/Http/Controllers/FacilityInfoController.php	/^    public function update(FacilityInfoRequest $request, FacilityInfo $facilityInfo)$/;"	f
+update	app/Http/Controllers/NoteController.php	/^    public function update(Request $request, Note $note)$/;"	f
+update	app/Http/Controllers/ResidentController.php	/^    public function update(Request $request, Resident $resident)$/;"	f
+update	app/Http/Controllers/TransactionController.php	/^    public function update(TransactionRequest $request, Transaction $transaction)$/;"	f
+updated	app/Http/Controllers/TransactionController.php	/^        $updated = $transaction->update([$/;"	v
+uri	server.php	/^$uri = urldecode($/;"	v
+url	tests/Browser/Pages/HomePage.php	/^    public function url()$/;"	f
+use	config/dompdf.php	/^         * direct class use like:$/;"	c
+user	app/Http/Controllers/TransactionController.php	/^        $user = auth()->user();$/;"	v
+user	app/Note.php	/^    public function user()$/;"	f
+user	tests/Browser/LoginTest.php	/^        $user = factory(User::class)->create([$/;"	v
+user	tests/Feature/SARInvoiceTest.php	/^		$user = factory(User::class)->create([$/;"	v
+user	tests/Feature/SARInvoiceTest.php	/^        $user = factory(User::class)->create();$/;"	v
+user	tests/Feature/SARInvoiceTest.php	/^        $user = factory(User::class)->create([$/;"	v
+user	tests/Unit/LoginTest.php	/^        $user = factory(User::class)->create();$/;"	v
+user	tests/Unit/ManDaysForMonthTest.php	/^        $user = factory(User::class)->create([$/;"	v
+user	tests/Unit/ManDaysForResidentTest.php	/^        $user = factory(User::class)->create([$/;"	v
+user	tests/Unit/ResidentTest.php	/^        $user = factory(User::class)->create();$/;"	v
+username	app/Http/Controllers/Auth/LoginController.php	/^    public function username()$/;"	f
+validator	app/Http/Controllers/Auth/RegisterController.php	/^    protected function validator(array $data)$/;"	f
+veteran	app/Http/Controllers/InvoiceController.php	/^        $veteran = $request->veteran;$/;"	v
+year	app/Http/Controllers/FacilityReportsController.php	/^        $year  = $date->year;$/;"	v
+year	app/Resident.php	/^            $year  = $today->copy()->subMonthsNoOverflow($i)->year;$/;"	v
+year	app/Resident.php	/^        $year            = $date->year;$/;"	v

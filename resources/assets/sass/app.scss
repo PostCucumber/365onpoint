@@ -1,0 +1,398 @@
+@import 'node_modules/sweetalert/dev/sweetalert';
+@import 'node_modules/font-awesome/scss/font-awesome';
+//@import "variables";
+@import 'node_modules/bulma/sass/utilities/initial-variables';
+@import 'node_modules/bulma/bulma';
+
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.gender {
+  margin-right: 5px;
+}
+
+#root {
+  height: 100%;
+  flex: 1 0 auto;
+}
+
+.email-input,
+.password-input {
+  border-radius: 40px;
+  font-size: 20px;
+  padding-left: 15px;
+  color: #95A5A6;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+.title {
+  padding: 25px 0 0;
+}
+
+.icon.user,
+.icon.password {
+  margin: 5px 10px 0 0;
+}
+
+.avatar img {
+  border-radius: 100px;
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+}
+
+.forgot-password a {
+  color: #95A5A6;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.login {
+  padding-top: 20px;
+}
+
+.login button {
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.neg-margin-top-100 {
+  margin-top: -100px;
+}
+
+.hero.is-dark .section {
+  background-color: transparent;
+}
+
+.login-wrapper {
+  //margin: -0.75rem;
+  overflow-y: hidden;
+}
+
+.hero-banner .hero {
+  background: url('/img/mountain-top.jpg') center;
+  background-size: cover;
+  background-blend-mode: screen;
+  width: 100%;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .6;
+  }
+}
+
+.login-form {
+  position: relative;
+  z-index: 999;
+}
+
+.hero-banner .title {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+
+.aside {
+  // background-color: #354052;
+  margin-right: -10px;
+}
+
+.aside .main {
+  padding: 30px;
+  // color: #6F7B7E;
+}
+
+.aside .main .item {
+  display: block;
+  padding: 10px 0;
+  // color: #6F7B7E;
+}
+
+.aside .main .item.active {
+  // color: #F6F7F7;
+}
+
+.aside .main .icon {
+  padding-right: 10px;
+}
+
+a.side-nav {
+  &:hover {
+    color: $primary !important;
+    -webkit-transition: color 400ms ease-in;
+    -moz-transition: color 400ms ease-in;
+    -ms-transition: color 400ms ease-in;
+    -o-transition: color 400ms ease-in;
+    transition: color 400ms ease-in;
+  }
+}
+
+.aside-divider {
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.main-area {
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+p.subtitle.is-4.facility-label {
+  font-weight: 700;
+  color: $primary;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.small-name {
+  font-size: .9em;
+  font-weight: lighter;
+}
+
+.admin-panel {
+  padding-bottom: 0;
+}
+
+.content {
+  display: block;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.hero .tabs ul {
+  border-bottom: 1px solid #d3d6db;
+}
+
+.select:after {
+  display: none;
+}
+
+.single-resident {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.doc-number {
+  font-weight: lighter;
+}
+
+.quicksearch {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+#residentCreate, #residentEdit {
+  margin-top: 40px;
+}
+
+a.nav-item.is-active {
+  color: $danger;
+}
+
+.danger {
+  color: red;
+}
+
+.debit {
+  color: red;
+}
+
+.credit {
+  color: green;
+}
+
+table {
+  overflow-x: scroll;
+}
+
+.wide-table {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.select2-container .select2-selection--single {
+  height: 35px !important;
+}
+
+.padding-40 {
+  padding: 40px;
+}
+
+.padding-10-lr {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.first {
+  margin-left: -10px;
+}
+
+.last {
+  margin-right: -10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.blackish {
+  color: #252525;
+}
+
+.sub-menu {
+  padding-left: 30px;
+  font-size: .8em;
+  list-style: inherit;
+}
+
+.sub-menu > li {
+  padding: 5px 0;
+}
+
+#reportForm {
+  width: 100%;
+}
+
+.trans_select_form {
+  height: 100%;
+  padding-top: 70px;
+}
+
+.intro {
+  margin: 30px;
+  font-size: 1.1em;
+}
+
+.single-resident-attributes {
+  justify-content: space-between;
+}
+
+sup {
+  color: $danger;
+}
+
+#form-error-list {
+  list-style: square;
+}
+
+.company-name-box {
+  background: #00b9eb;
+}
+
+.company-name {
+  font-family: 'Raleway', sans-serif;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.full-width-columns {
+  width: 100%;
+}
+
+#intakeForm, #invoice-form {
+  width: 100%;
+}
+
+span.select {
+  width: 100%;
+}
+
+#sortReportSubmit {
+  margin-left: 15px;
+}
+
+span.select2 {
+  width: 100% !important;
+}
+
+#reportSubmit {
+  margin-left: 15px;
+}
+
+#sortReportForm {
+  width: 100%;
+}
+
+.sortForm {
+  width: 100%;
+}
+
+.edit-icon {
+  color: $info;
+}
+
+.grid {
+  width: 100%;
+}
+
+#invoice-hero .hero-body {
+  height: 200px;
+}
+
+@media (max-width: 992px) {
+  //.single-resident{
+  //  width:80%;
+  //  margin:0;
+  //}
+
+  .padding-40 {
+    padding: 0;
+  }
+
+  .container {
+    padding: 30px 25px;
+  }
+
+}
+
+@media print {
+  @page {
+    margin: 10px;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  .page-break{
+    page-break-after: always;
+  }
+  table {
+    font-size: 1.2em;
+  }
+  .invoice-table{
+    font-size:1.2rem;
+  }
+  .transaction-table{
+    font-size: 1.1em;
+  }
+  .hero, footer{
+    display:none;
+  }
+}
+
