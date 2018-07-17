@@ -36,7 +36,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="field is-horizontal">
+                <!-- <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">Total Allocation</label>
                     </div>
@@ -59,7 +59,7 @@
                         </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">Total Previously Paid Out</label>
