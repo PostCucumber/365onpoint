@@ -11,6 +11,10 @@
         line-height:1.1em;
     }
 
+    .checkbox input, .radio input {
+        cursor: pointer;
+    }
+
     #page {
         margin: 0px auto;
         padding: 0px;
@@ -276,13 +280,51 @@
             <td colspan="4" class="burgundy separator noborder"></td>
         </tr>
         <tr>
-            <td class="centered-blue">{{ $veteran }}</td><td colspan="3">During this invoice period did you utilize any minority/service-disabled veteran vendor?  If yes, please attach appropriate documentation.</td>
+            <!-- {{ $veteran }} -->
+            <td class="centered-blue" colspan="2">
+                <label class="radio" value="Yes">
+                    <input type="radio" name="veteran">Yes
+                </label> 
+                <label class="radio" value="No">
+                    <input type="radio" name="veteran">No
+                </label> 
+                <label class="radio" value="N/A">
+                    <input type="radio" name="veteran">N/A
+                </label>
+            </td>
+
+            <td colspan="2">During this invoice period did you utilize any minority/service-disabled veteran vendor?  If yes, please attach appropriate documentation.</td>
         </tr>
         <tr>
-            <td class="centered-blue">{{ $pride }}</td><td colspan="3">During this invoice period did you purchase all items required to carry out this Contract from PRIDE or RESPECT?  If yes, please attach appropriate documentation.  If no, please provide an explanation.</td>
+            <td class="centered-blue" colspan="2">
+                <label class="radio">
+                    <input type="radio" name="pride" value="Yes">Yes
+                </label> 
+                <label class="radio">
+                    <input type="radio" name="pride" value="No">No
+                </label> 
+                <label class="radio">
+                    <input type="radio" name="pride" value="N/A">N/A
+                </label>
+            </td>
+
+            <td colspan="2">During this invoice period did you purchase all items required to carry out this Contract from PRIDE or RESPECT?  If yes, please attach appropriate documentation.  If no, please provide an explanation.</td>
         </tr>
         <tr>
-            <td class="centered-blue">{{ $paid }}</td><td colspan="3">Have you paid all sub-contractors for the previous billing month?</td>
+            <td class="centered-blue" colspan="2">
+                <label class="radio">
+                    <input type="radio" name="paid" value="Yes">Yes
+                </label> 
+                
+                <label class="radio">
+                    <input type="radio" name="paid" value="No">No
+                </label> 
+                <label class="radio">
+                    <input type="radio" name="paid" value="N/A">N/A
+                </label>
+            </td>
+
+            <td colspan="2">Have you paid all sub-contractors for the previous billing month?</td>
         </tr>
         <tr>
             <td colspan="4" class="burgundy separator"></td>

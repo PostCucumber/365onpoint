@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-5">
+                <!-- <div class="column is-5">
                     <div class="control">
                         <p class="box">
                             During this invoice period did you utilize any minority/service-disabled veteran vendor?  If yes, please be prepared to attach appropriate documentation.
@@ -155,7 +155,7 @@
                             </label>
                         </p>
                     </div>
-                </div>
+                </div> -->
                 <button type="submit" class="button is-primary" id="reportSubmit">Generate Invoice</button>
             </form>
         </div>
