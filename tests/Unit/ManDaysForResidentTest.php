@@ -32,7 +32,7 @@ class ManDaysForResident extends TestCase
             'facility'                 => $user->facility
         ]);
 
-        $manDays = Resident::calculateManDaysForMonth(2017, 4, $resident);
+        $manDays = Resident::calculateManDaysForMonth(2017, 4, $resident->id);
 
         self::assertEquals(30, $manDays);
     }
@@ -84,6 +84,33 @@ class ManDaysForResident extends TestCase
         self::assertEquals(31, $daysForFY);
 
 
+    }
+
+    /** @test */
+    public function it_can_account_for_days_spent_in_archive()
+    {
+        $user = factory(User::class)->create([
+            'facility' => 'Demo'
+        ]);
+
+        $this->actingAs($user);
+
+        $admit  = Carbon::create(2017, 1, 1)->toDateString();
+        $softDeletedAt = Carbon::create(2017, 1, 2)->toDateString();
+        $restoredAt = Carbon::create(2017, 1, 3)->toDateString();
+        $discharge = Carbon::create(2017, 2, 1)->toDateString();
+
+        $resident = factory(Resident::class)->create([
+            'date_of_admission'        => $admit,
+            'actual_date_of_discharge' => $discharge,
+            'facility'                 => $user->facility,
+            'soft_deleted_at'          => $softDeletedAt,
+            'restored_at'              => $restoredAt
+        ]);
+
+        $daysForFY = Resident::calculateManDaysForMonth(2017, 1, $resident->id);
+
+        self::assertEquals(30, $daysForFY);
     }
 
 }

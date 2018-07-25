@@ -42,7 +42,7 @@ class Resident extends Model
         $residents = DB::table('residents')
             ->where('facility', \Auth::user()->facility)
             ->when($resident, function ($query) use ($resident) {
-                return $query->where('id', $resident->id);
+                return $query->where('id', $resident);
             })
             ->whereYear('date_of_admission', '<=', $year)
             ->get();
@@ -51,6 +51,8 @@ class Resident extends Model
         foreach ($residents as $resident) {
             $firstDayOfMonth = Carbon::now()->year($year)->month($month)->firstOfMonth();
             $lastDayOfMonth  = Carbon::now()->year($year)->month($month)->lastOfMonth();
+            $softDeletedAt   = carbon::parse($resident->soft_deleted_at);
+            $restoredAt      = carbon::parse($resident->restored_at);
             $admitDateTmp    = Carbon::parse($resident->date_of_admission);
             $admitDate       = $admitDateTmp->lessThanOrEqualTo($firstDayOfMonth) ? $firstDayOfMonth : $admitDateTmp;
             $releaseDate     = $resident->actual_date_of_discharge == null || Carbon::parse($resident->actual_date_of_discharge)->greaterThan($lastDayOfMonth) ? $lastDayOfMonth->addDay() :
@@ -58,6 +60,9 @@ class Resident extends Model
 
             if ($admitDate->lessThanOrEqualTo($lastDayOfMonth) && $releaseDate->greaterThanOrEqualTo($firstDayOfMonth)) {
                 $sum += $admitDate->diffInDays($releaseDate);
+                if ($softDeletedAt !== null || $restoredAt !== null) {
+                    $sum -= $restoredAt->diffInDays($softDeletedAt);
+                }
             }
         }
 
@@ -84,6 +89,8 @@ class Resident extends Model
 
         $sum = 0;
         foreach ($residents as $resident) {
+            $softDeletedAt   = carbon::parse($resident->soft_deleted_at);
+            $restoredAt      = carbon::parse($resident->restored_at);
             $admitDateTmp = Carbon::parse($resident->date_of_admission);
             $admitDate    = $admitDateTmp->lt($firstDayOfMonth) ? $firstDayOfMonth : $admitDateTmp;
             $releaseDate  = $resident->actual_date_of_discharge == null ? $tomorrow :
@@ -91,6 +98,9 @@ class Resident extends Model
 
             if ($releaseDate->greaterThanOrEqualTo($firstDayOfMonth)) {
                 $sum += $admitDate->diffInDays($releaseDate);
+                if ($softDeletedAt !== null || $restoredAt !== null) {
+                    $sum -= $restoredAt->diffInDays($softDeletedAt);
+                }
             }
         }
 
