@@ -33,9 +33,6 @@
                             </header>
                             <div class="card-content">
                                 <div class="content">
-                                    @if($resident->soft_deleted_at)
-                                        <p class="text-xs" style="color: red; dislplay: block;">Archived on {{ Carbon\Carbon::parse($resident->soft_deleted_at)->format('F j, Y') }}</p>
-                                    @endif
                                     <p><strong>Sex: </strong>{{ $resident->sex }}</p>
                                     <p><strong>Race: </strong>{{ $resident->race }}</p>
                                     <p><strong>SC #: </strong>{{ $resident->service_center_number }}
@@ -103,3 +100,6 @@
 
     </script>
 @endsection
+
+
+
