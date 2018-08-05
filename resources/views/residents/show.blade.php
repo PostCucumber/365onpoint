@@ -16,6 +16,24 @@
     <div class="container">
         <div class="columns">
             <div class="column padding-40">
+            @if(! $resident->soft_deleted_at)
+                <div class="row">
+                    <form action="/soft-delete-resident/{{ $resident->id }}" method="POST">
+                        {{ method_field('PATCH')}}
+                        {{ csrf_field() }}
+                        <button type="submit" class="button is-warning margin-bottom-20">Archive this resident</button>
+                    </form>
+                </div>
+            @else
+                <div class="row">
+                    <h3 class="title" style="color: red;">Archived on {{ Carbon\Carbon::parse($resident->soft_deleted_at)->format('F j, Y') }}</h3>
+                    <form action="/restore-resident/{{ $resident->id }}" method="POST">
+                        {{ method_field('PATCH')}}
+                        {{ csrf_field() }}
+                        <button type="submit" class="button is-success margin-bottom-20">Click here to restore this resident to active status</button>
+                    </form>
+                </div>
+            @endif
                 @include('partials.residentInfo')
             </div>
         </div>

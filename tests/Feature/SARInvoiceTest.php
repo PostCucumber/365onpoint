@@ -72,7 +72,7 @@ class SARInvoiceTest extends TestCase
 			'facility'                 => 'Demo'
 		]);
 
-		$totalBedDaysForMonth = Resident::calculateManDaysForMonth(2017, 6, $resident);
+		$totalBedDaysForMonth = Resident::calculateManDaysForMonth(2017, 6, $resident->id);
 
 		self::assertEquals(29, $totalBedDaysForMonth);
 

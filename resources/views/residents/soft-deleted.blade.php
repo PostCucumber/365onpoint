@@ -1,14 +1,14 @@
 @extends('layouts.main')
 
 @section('title')
-    All Residents
+    Soft Deleted Residents
 @endsection
 
 @section('content')
     <div class="columns main-area">
         <div class="column is-offset-1-tablet is-10-tablet is-10-widescreen">
             <div class="notification is-default intro">
-                This is a view of all of your residents.
+                This is a view of all of your archived residents.
                 Click on a resident's name to view any information about that resident. Also, you can start
                 typing in the search box below to find any resident quickly.
             </div>

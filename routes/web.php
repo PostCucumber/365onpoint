@@ -15,6 +15,8 @@ Route::get('/', 'HomeController@index');
 
 Auth::routes();
 
+Route::patch('/soft-delete-resident/{id}', 'SoftDeletesController@destroy');
+Route::patch('/restore-resident/{id}', 'SoftDeletesController@update');
 Route::get('/home', 'HomeController@index')->name('dashboard');
 Route::resource('resident', 'ResidentController');
 Route::resource('transaction', 'TransactionController', ['except' => 'create']);
