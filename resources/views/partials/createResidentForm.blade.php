@@ -68,7 +68,7 @@
                 <div class="column is-offset-1 is-8">
                     <label class="label has-text-centered">Email </label>
                     <p class="control">
-                        <input class="input" type="text" name="email">
+                        <input required class="input" type="text" name="email">
                     </p>
                 </div>
             </div>

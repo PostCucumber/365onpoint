@@ -96,7 +96,7 @@
                 <div class="column is-offset-1 is-8">
                     <label class="label has-text-centered">Email</label>
                     <p class="control">
-                        <input class="input" type="text" name="email" value="{{ $resident->email }}">
+                        <input class="input" required type="text" name="email" value="{{ $resident->email }}">
                     </p>
                 </div>
             </div>
@@ -333,3 +333,9 @@
         </div>
     </div>
 </form>
+<script type="text/javascript">
+    setTimeout(function(){ 
+        document.getElementById('actual_date_of_discharge').readOnly = false;
+    }, 1000);
+    
+</script>

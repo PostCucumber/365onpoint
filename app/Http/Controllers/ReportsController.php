@@ -20,7 +20,7 @@ class ReportsController extends Controller
     {
         $sortType     = 'last name';
         $downloadLink = '/report/download/last_name';
-        $residents    = Resident::where('facility', \Auth::user()->facility)->get()->sortBy('last_name');
+        $residents    = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy('last_name');
 
         return view('reports.residentIndex', compact('residents', 'sortType', 'downloadLink'));
     }
@@ -32,7 +32,7 @@ class ReportsController extends Controller
 
             $excel->sheet('Resident Report', function ($sheet) use ($sortBy) {
 
-                $residents = Resident::where('facility', \Auth::user()->facility)->get()->sortBy($sortBy);
+                $residents = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy($sortBy);
 
                 $sheet->loadView('reports.residentIndexXLS', compact('residents'));
             });
@@ -45,7 +45,7 @@ class ReportsController extends Controller
 
             $excel->sheet('Resident Report', function ($sheet) use ($sortBy) {
 
-                $residents = Resident::where('facility', \Auth::user()->facility)->get()->sortBy($sortBy);
+                $residents = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy($sortBy);
 
                 $sheet->loadView('reports.residentIndexXLS', compact('residents'));
             });
@@ -57,7 +57,7 @@ class ReportsController extends Controller
         $sortType     = 'date of birth';
         $downloadLink = '/report/download/dob';
         $pdfLink      = '/report/stream/dob';
-        $residents    = Resident::where('facility', \Auth::user()->facility)->get()->sortBy('dob');
+        $residents    = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy('dob');
 
         $pdf = PDF::loadView('reports.residentIndex', [$downloadLink, $residents, $pdfLink, $sortType]);
         return $pdf->stream();
@@ -68,7 +68,7 @@ class ReportsController extends Controller
         $sortType     = 'date of birth';
         $downloadLink = '/report/download/dob';
         $pdfLink      = '/report/stream/dob';
-        $residents    = Resident::where('facility', \Auth::user()->facility)->get()->sortBy('dob');
+        $residents    = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy('dob');
 
         return view('reports.residentIndex', compact('residents', 'sortType', 'downloadLink', 'pdfLink'));
     }
@@ -77,7 +77,7 @@ class ReportsController extends Controller
     {
         $sortType     = 'date of admission';
         $downloadLink = '/report/download/date_of_admission';
-        $residents    = Resident::where('facility', \Auth::user()->facility)->get()->sortBy('date_of_admission');
+        $residents    = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy('date_of_admission');
 
         return view('reports.residentIndex', compact('residents', 'sortType', 'downloadLink'));
     }
@@ -86,7 +86,7 @@ class ReportsController extends Controller
     {
         $sortType     = 'projected date of discharge';
         $downloadLink = '/report/download/projected_date_of_discharge';
-        $residents    = Resident::where('facility', \Auth::user()->facility)->get()->sortBy('actual_date_of_discharge');
+        $residents    = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy('actual_date_of_discharge');
 
         return view('reports.residentIndex', compact('residents', 'sortType', 'downloadLink'));
     }
@@ -94,7 +94,7 @@ class ReportsController extends Controller
     {
         $sortType     = 'counselor';
         $downloadLink = '/report/download/counselor';
-        $residents    = Resident::where('facility', \Auth::user()->facility)->get()->sortBy('counselor');
+        $residents    = Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->get()->sortBy('counselor');
 
         return view('reports.residentIndex', compact('residents', 'sortType', 'downloadLink'));
     }

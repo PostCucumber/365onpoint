@@ -7,7 +7,12 @@
 @section('content')
     @php
         setlocale(LC_MONETARY, 'en_US.UTF-8');
-        $residents = App\Resident::where('facility', \Auth::user()->facility);
+        
+        $residents = App\Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null);
+
+        $date = \Carbon\Carbon::today()->subDays(90);
+        $expired_residents = App\Resident::where('facility', \Auth::user()->facility)->where('actual_date_of_discharge','>=', date($date));
+
         $credits   = App\Resident::where('residents.facility', \Auth::user()->facility)
                         ->join('transactions', 'residents.id', '=', 'transactions.resident_id')
                         ->pluck('transactions.credit')->sum();
@@ -24,8 +29,14 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <div class="column">
-                        <p class="heading">Residents</p>
+                        <p class="heading">Active Residents</p>
                         <p class="title">{{ $residents->count() }}</p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div class="column">
+                        <p class="heading">Expired Residents</p>
+                        <p class="title">{{ $expired_residents->count() }}</p>
                     </div>
                 </div>
                 <div class="level-item has-text-centered">
