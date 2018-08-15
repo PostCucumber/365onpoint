@@ -22,11 +22,18 @@ class ResidentController extends Controller
      */
     public function index()
     {
-        $residents = DB::table('residents')->where('facility', \Auth::user()->facility)->orderBy('last_name')->get();
+        $residents = DB::table('residents')->where('facility', \Auth::user()->facility)->where('actual_date_of_discharge', null)->orderBy('last_name')->get();
 
         return view('residents.index', compact('residents'));
     }
 
+    public function residentexpired()
+    {
+        $date = \Carbon\Carbon::today()->subDays(90);                                                   
+        $residents = DB::table('residents')->where('facility', \Auth::user()->facility)->where('actual_date_of_discharge','>=', date($date))->orderBy('last_name')->get();
+        return view('residents.index', compact('residents'));
+    }
+    
     /**
      * Show the form for creating a new resource.
      *

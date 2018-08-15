@@ -43,7 +43,12 @@
                             class="name">Dashboard</span></a>
                 <a href="{{ route('resident.index') }}" class="item side-nav"><span class="icon"><i
                                 class="fa fa-user"></i></span><span
-                            class="name">Residents</span></a>
+                            class="name">Active Residents</span></a>
+
+                <a href="/residentexpired" class="item side-nav"><span class="icon"><i
+                                class="fa fa-user"></i></span><span
+                            class="name">Expired Residents</span></a>
+
                 <a href="{{ route('invoices.select') }}" class="item side-nav"><span class="icon"><i
                                 class="fa fa-list-alt"></i></span><span
                             class="name">Invoice</span></a>

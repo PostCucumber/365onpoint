@@ -7,15 +7,26 @@
 @section('content')
     <div class="columns main-area">
         <div class="column is-offset-1-tablet is-10-tablet is-10-widescreen">
+            
+            @if(Request::path() == 'residentexpired')
             <div class="notification is-default intro">
-                This is a view of all of your residents.
+                This is a view of expired residents.
                 Click on a resident's name to view any information about that resident. Also, you can start
                 typing in the search box below to find any resident quickly.
             </div>
+            @else
+            <div class="notification is-default intro">
+                This is a view of active residents.
+                Click on a resident's name to view any information about that resident. Also, you can start
+                typing in the search box below to find any resident quickly.
+            </div>
+            @endif
 
+            @if(Request::path() == 'resident')
             <a href="/resident/create" class="button is-primary is-large"
                style="margin-top: 30px; margin-left:20px;">Add a
                 new resident</a>
+            @endif
             <p style="margin-left:10px;"><input type="text" class="quicksearch input column is-3 is-large"
                                                 placeholder="Search" autofocus="autofocus"/></p>
             <div class="grid">
