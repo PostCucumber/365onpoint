@@ -93,33 +93,35 @@
                     </thead>
                     <tbody>
                     @foreach($residents as $resident)
-                        <tr class="has-text-centered">
-                            <td>{{ $loop->iteration }}</td>
-                            <td>{{ $resident->document_number }}</td>
-                            <td>{{ $resident->last_name }}, {{ $resident->first_name }}</td>
-                            <td>{{ \Carbon\Carbon::parse($resident->date_of_admission)->format('m-d-Y') }}</td>
-                            <td>{{ \Carbon\Carbon::parse($resident->date_of_admission)->addMonths(2)->format('m-d-Y') }}</td>
-                            <td>
-                                @if(
-                                    $resident->actual_date_of_discharge != null &&
-                                    \Carbon\Carbon::parse($resident->actual_date_of_discharge)->lessThanOrEqualTo(
-                                        \Carbon\Carbon::createFromDate($year, $month)->endOfMonth()))
-                                {{ \Carbon\Carbon::parse($resident->actual_date_of_discharge)->format('m-d-Y') }}
-                                @endif
-                            </td>
-                            <td>
-                                @if($resident->status_at_discharge == 'Administrative')
-                                    A
-                                @elseif($resident->status_at_discharge == 'Successful')
-                                    S
-                                @elseif(preg_match('/Unsuccessful*/', $resident->status_at_discharge))
-                                    U
-                                @endif
-                            </td>
-                            <td>{{ App\Resident::calculateManDaysForMonth($year, $month, $resident) }}</td>
-                            <td>
-                                ${{ number_format($facilityInfo->per_diem * App\Resident::calculateManDaysForMonth($year, $month, $resident), 2, '.', ',') }}</td>
-                        </tr>
+                        @if(App\Resident::calculateManDaysForMonth($year, $month, $resident)!=0) 
+                            <tr class="has-text-centered">
+                                <td>{{ $loop->iteration }}</td>
+                                <td>{{ $resident->document_number }}</td>
+                                <td>{{ $resident->last_name }}, {{ $resident->first_name }}</td>
+                                <td>{{ \Carbon\Carbon::parse($resident->date_of_admission)->format('m-d-Y') }}</td>
+                                <td>{{ \Carbon\Carbon::parse($resident->date_of_admission)->addMonths(2)->format('m-d-Y') }}</td>
+                                <td>
+                                    @if(
+                                        $resident->actual_date_of_discharge != null &&
+                                        \Carbon\Carbon::parse($resident->actual_date_of_discharge)->lessThanOrEqualTo(
+                                            \Carbon\Carbon::createFromDate($year, $month)->endOfMonth()))
+                                    {{ \Carbon\Carbon::parse($resident->actual_date_of_discharge)->format('m-d-Y') }}
+                                    @endif
+                                </td>
+                                <td>
+                                    @if($resident->status_at_discharge == 'Administrative')
+                                        A
+                                    @elseif($resident->status_at_discharge == 'Successful')
+                                        S
+                                    @elseif(preg_match('/Unsuccessful*/', $resident->status_at_discharge))
+                                        U
+                                    @endif
+                                </td>
+                                <td>{{ App\Resident::calculateManDaysForMonth($year, $month, $resident) }}</td>
+                                <td>
+                                    ${{ number_format($facilityInfo->per_diem * App\Resident::calculateManDaysForMonth($year, $month, $resident), 2, '.', ',') }}</td>
+                            </tr>
+                        @endif
                     @endforeach
                     </tbody>
                 </table>
