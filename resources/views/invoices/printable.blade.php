@@ -374,31 +374,33 @@
         <tbody class="small-border">
             <!-- start foreach -->
             @foreach($residents as $resident)
-            <tr>
-                <td>{{ $loop->iteration }}</td>
-                <td>{{ $resident->document_number }}</td>
-                <td>{{ $resident->last_name }}, {{ $resident->first_name }}</td>
-                <td>{{ $resident->date_of_admission }}</td>
-                <td>{{ $resident->date_of_admission }}</td>
-                <td>
-                    @if($resident->actual_date_of_discharge != null &&
-                                \Carbon\Carbon::parse($resident->actual_date_of_discharge)->lessThanOrEqualTo(
-                                    \Carbon\Carbon::createFromDate($year, $month)->endOfMonth()))
-                            {{ \Carbon\Carbon::parse($resident->actual_date_of_discharge)->format('m-d-Y') }}
-                    @endif
-                </td>
-                <td>
-                    @if($resident->status_at_discharge == 'Administrative')
-                        A
-                    @elseif($resident->status_at_discharge == 'Successful')
-                        S
-                    @elseif(preg_match('/Unsuccessful*/', $resident->status_at_discharge))
-                        U
-                    @endif
-                </td>
-                <td>{{ App\Resident::calculateManDaysForMonth($year, $month, $resident) }}</td>
-                <td></td>
-            </tr>
+                @if(App\Resident::calculateManDaysForMonth($year, $month, $resident)!=0) 
+                    <tr>
+                        <td>{{ $loop->iteration }}</td>
+                        <td>{{ $resident->document_number }}</td>
+                        <td>{{ $resident->last_name }}, {{ $resident->first_name }}</td>
+                        <td>{{ $resident->date_of_admission }}</td>
+                        <td>{{ $resident->date_of_admission }}</td>
+                        <td>
+                            @if($resident->actual_date_of_discharge != null &&
+                                        \Carbon\Carbon::parse($resident->actual_date_of_discharge)->lessThanOrEqualTo(
+                                            \Carbon\Carbon::createFromDate($year, $month)->endOfMonth()))
+                                    {{ \Carbon\Carbon::parse($resident->actual_date_of_discharge)->format('m-d-Y') }}
+                            @endif
+                        </td>
+                        <td>
+                            @if($resident->status_at_discharge == 'Administrative')
+                                A
+                            @elseif($resident->status_at_discharge == 'Successful')
+                                S
+                            @elseif(preg_match('/Unsuccessful*/', $resident->status_at_discharge))
+                                U
+                            @endif
+                        </td>
+                        <td>{{ App\Resident::calculateManDaysForMonth($year, $month, $resident) }}</td>
+                        <td></td>
+                    </tr>
+                @endif
             @endforeach
             <!-- end foreach -->
         </tbody>
